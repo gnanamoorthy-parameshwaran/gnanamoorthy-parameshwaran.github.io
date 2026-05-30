@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Gnanamoorthy Parameshwaran | Full Stack Developer</title>
-    <meta name="description" content="Full Stack Developer skilled in Vue.js, Laravel, React Native &amp; MySQL. Building scalable web and mobile apps at Tigeen Computing Pvt Ltd." />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="apple-touch-icon" href="/tgp.png" />
-    <meta name="keywords" content="Gnanamoorthy Parameshwaran, Full Stack Developer, Vue.js, Laravel, React Native, PHP, MySQL, Node.js, Docker, AWS, web developer India" />
-    <meta name="author" content="Gnanamoorthy Parameshwaran" />
-    <meta name="robots" content="index, follow" />
-    <link rel="canonical" href="https://gnanamoorthy-parameshwaran.github.io/" />
 
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://gnanamoorthy-parameshwaran.github.io/" />
-    <meta property="og:title" content="Gnanamoorthy Parameshwaran | Full Stack Developer" />
-    <meta property="og:description" content="Full Stack Developer specializing in Vue.js, Laravel, React Native, and MySQL. Building scalable web and mobile applications." />
-    <meta property="og:image" content="https://gnanamoorthy-parameshwaran.github.io/tgp.png" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gnanamoorthy Parameshwaran | Full Stack Developer</title>
+  <meta name="description"
+    content="Full Stack Developer skilled in Vue.js, Laravel, React Native &amp; MySQL. Building scalable web and mobile apps at Tigeen Computing Pvt Ltd." />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="apple-touch-icon" href="/tgp.png" />
+  <meta name="keywords"
+    content="Gnanamoorthy Parameshwaran, Full Stack Developer, Vue.js, Laravel, React Native, PHP, MySQL, Node.js, Docker, AWS, web developer India" />
+  <meta name="author" content="Gnanamoorthy Parameshwaran" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://gnanamoorthy-parameshwaran.github.io/" />
 
-    <!-- Twitter Card -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Gnanamoorthy Parameshwaran | Full Stack Developer" />
-    <meta name="twitter:description" content="Full Stack Developer specializing in Vue.js, Laravel, React Native, and MySQL." />
-    <meta name="twitter:image" content="https://gnanamoorthy-parameshwaran.github.io/tgp.png" />
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://gnanamoorthy-parameshwaran.github.io/" />
+  <meta property="og:title" content="Gnanamoorthy Parameshwaran | Full Stack Developer" />
+  <meta property="og:description"
+    content="Full Stack Developer specializing in Vue.js, Laravel, React Native, and MySQL. Building scalable web and mobile applications." />
+  <meta property="og:image" content="https://gnanamoorthy-parameshwaran.github.io/tgp.png" />
 
-    <!-- JSON-LD Structured Data -->
-    <script type="application/ld+json">
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Gnanamoorthy Parameshwaran | Full Stack Developer" />
+  <meta name="twitter:description"
+    content="Full Stack Developer specializing in Vue.js, Laravel, React Native, and MySQL." />
+  <meta name="twitter:image" content="https://gnanamoorthy-parameshwaran.github.io/tgp.png" />
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
     {
       "@context": "https://schema.org",
       "@type": "Person",
@@ -48,465 +53,404 @@
     }
     </script>
 
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
 
-    <style>
-      .timeline {
-        position: relative;
-        max-width: 800px;
-        margin: auto;
-      }
+  <style>
+    .timeline {
+      position: relative;
+      max-width: 800px;
+      margin: auto;
+    }
 
-      .timeline-item {
-        position: relative;
-        padding: 20px 0;
-        display: flex;
-        justify-content: center;
-      }
+    .timeline-item {
+      position: relative;
+      padding: 20px 0;
+      display: flex;
+      justify-content: center;
+    }
 
+    .timeline-item::before {
+      content: "";
+      position: absolute;
+      width: 5px;
+      background-color: #007bff;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      margin-left: -2.5px;
+    }
+
+    .timeline-content {
+      background: #f8f9fa;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+      width: 40%;
+      position: relative;
+    }
+
+    .timeline-content.left {
+      text-align: right;
+      margin-right: 55%;
+    }
+
+    .timeline-content.right {
+      text-align: left;
+      margin-left: 55%;
+    }
+
+    .timeline-content h3 {
+      font-weight: bold;
+    }
+
+    .timeline-content i {
+      font-size: 1.2rem;
+    }
+
+    @media (max-width: 768px) {
       .timeline-item::before {
-        content: "";
-        position: absolute;
-        width: 5px;
-        background-color: #007bff;
-        top: 0;
-        bottom: 0;
-        left: 50%;
-        margin-left: -2.5px;
+        left: 20px;
       }
 
       .timeline-content {
-        background: #f8f9fa;
-        padding: 15px;
-        border-radius: 8px;
-        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-        width: 40%;
-        position: relative;
+        width: 90%;
+        text-align: left;
+        margin: auto;
       }
 
       .timeline-content.left {
-        text-align: right;
-        margin-right: 55%;
+        margin: auto;
       }
 
       .timeline-content.right {
-        text-align: left;
-        margin-left: 55%;
+        margin: auto;
       }
+    }
+  </style>
+</head>
 
-      .timeline-content h3 {
-        font-weight: bold;
-      }
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#home">Gnanamoorthy P</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-      .timeline-content i {
-        font-size: 1.2rem;
-      }
-
-      @media (max-width: 768px) {
-        .timeline-item::before {
-          left: 20px;
-        }
-
-        .timeline-content {
-          width: 90%;
-          text-align: left;
-          margin: auto;
-        }
-
-        .timeline-content.left {
-          margin: auto;
-        }
-
-        .timeline-content.right {
-          margin: auto;
-        }
-      }
-    </style>
-  </head>
-  <body>
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#home">Gnanamoorthy P</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarResponsive"
-          aria-controls="navbarResponsive"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#experience">Experience</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
+  <!-- Home Section -->
+  <header class="text-center section p-5" id="home">
+    <div class="container d-flex flex-column gap-5">
+      <div class="d-flex flex-column align-items-center vh-y">
+        <img src="./tgp.png" height="150px" width="120px" style="border-radius: 50px"
+          alt="Gnanamoorthy Parameshwaran - Full Stack Developer" />
+        <h1 class="h3">Gnanamoorthy Parameshwaran</h1>
+        <p>
+          Full stack Developer<br /><a href="https://tigeensolutions.com/" target="_blank">Tigeen Computing Pvt Ltd</a>
+        </p>
+        <div class="d-flex gap-4">
+          <a href="https://www.linkedin.com/in/gnanamoorthy-parameshwaran" target="_blank"><i
+              class="bi bi-linkedin"></i></a>
+          <a href="https://github.com/Gnanamoorthy-Dev" target="_blank"><i class="bi bi-github"></i></a>
+          <a href="mailto:gnanamoorthy.dev@gmail.com" target="_blank"><i class="bi bi-envelope-at-fill"></i></a>
         </div>
       </div>
-    </nav>
 
-    <!-- Home Section -->
-    <header class="text-center section p-5" id="home">
-      <div class="container d-flex flex-column gap-5">
-        <div class="d-flex flex-column align-items-center vh-y">
-          <img
-            src="./tgp.png"
-            height="150px"
-            width="120px"
-            style="border-radius: 50px"
-            alt="Gnanamoorthy Parameshwaran - Full Stack Developer"
-          />
-          <h1 class="h3">Gnanamoorthy Parameshwaran</h1>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section class="container py-5" id="about">
+    <h2 class="text-center mb-4 fw-bold">About Me</h2>
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <p style="font-family: Verdana, Geneva, Tahoma, sans-serif">
+          I'm a passionate Full-Stack Developer with expertise in building
+          scalable web and mobile applications. With a strong foundation in
+          Vue.js, Laravel, MySQL, React Native, and Tailwind CSS, I specialize
+          in creating seamless user experiences and robust backend systems.
+        </p>
+        <p style="font-family: Verdana, Geneva, Tahoma, sans-serif">
+          I enjoy solving complex problems and turning ideas into reality
+          through clean, efficient code — whether designing dynamic front-end
+          interfaces or developing secure REST APIs. I believe in continuous
+          learning and love collaborating with like-minded developers to build
+          impactful digital products.
+        </p>
+        <p style="font-family: Verdana, Geneva, Tahoma, sans-serif">
+          Currently working as a Full Stack Developer at
+          <a href="https://tigeensolutions.com/" target="_blank">Tigeen Computing Pvt Ltd</a>,
+          where I contribute to production-grade web and mobile projects using
+          modern frameworks and DevOps best practices.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="container py-5" id="skills">
+    <h2 class="text-center mb-4 fw-bold">My Skills</h2>
+    <div class="row justify-content-between g-4">
+      <!-- Frontend -->
+      <div class="col-md-6 col-lg-3 d-flex">
+        <div class="card border-0 text-center p-3 h-100 w-100">
+          <div class="card-body">
+            <i class="fa-brands fa-html5 display-6 text-primary"></i>
+            <h3 class="mt-3 fw-bold">Frontend</h3>
+            <ul class="list-unstyled mt-3 text-start">
+              <li class="d-flex align-items-center gap-2 justify-content-center p-1">
+                <i class="fa-brands fa-react text-info"></i> React.js
+              </li>
+              <li class="d-flex align-items-center gap-2 justify-content-center p-1">
+                <i class="fa-brands fa-vuejs text-success"></i> Vue.js
+              </li>
+              <li class="d-flex align-items-center gap-2 justify-content-center p-1">
+                <i class="fa-brands fa-react text-primary"></i> React Native
+              </li>
+              <li class="d-flex align-items-center gap-2 justify-content-center p-1">
+                <i class="fa-brands fa-js text-warning"></i> JavaScript (ES6+)
+              </li>
+              <li class="d-flex align-items-center gap-2 justify-content-center p-1">
+                <i class="fa-brands fa-bootstrap text-primary"></i> Bootstrap
+                5
+              </li>
+              <li class="d-flex align-items-center gap-2 justify-content-center p-1">
+                <i class="fa-solid fa-paintbrush text-secondary"></i> Tailwind
+                CSS
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Backend -->
+      <div class="col-md-6 col-lg-3 d-flex">
+        <div class="card border-0 text-center p-3 h-100 w-100">
+          <div class="card-body">
+            <i class="fa-solid fa-server display-6 text-success"></i>
+            <h3 class="mt-3 fw-bold">Backend</h3>
+            <ul class="list-unstyled mt-3 text-start">
+              <li class="d-flex align-items-center gap-2 justify-content-center p-1">
+                <i class="fa-brands fa-php text-purple"></i> PHP (Laravel,
+                CodeIgniter)
+              </li>
+              <li class="d-flex align-items-center gap-2 justify-content-center p-1">
+                <i class="fa-solid fa-database text-danger"></i> MySQL
+              </li>
+              <li class="d-flex align-items-center gap-2 justify-content-center p-1">
+                <i class="fa-brands fa-python text-info"></i> Python
+              </li>
+              <li class="d-flex align-items-center gap-2 justify-content-center p-1">
+                <i class="fa-brands fa-node-js text-success"></i> Node.js
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- DevOps & Infrastructure -->
+      <div class="col-md-6 col-lg-3 d-flex">
+        <div class="card border-0 text-center p-3 h-100 w-100">
+          <div class="card-body">
+            <i class="fa-solid fa-cloud display-6 text-warning"></i>
+            <h3 class="mt-3 fw-bold">DevOps & Infrastructure</h3>
+            <ul class="list-unstyled mt-3 text-start">
+              <li class="d-flex align-items-center gap-2 justify-content-center p-1">
+                <i class="fa-brands fa-git-alt text-danger"></i> Git (GitHub,
+                GitLab)
+              </li>
+              <li class="d-flex align-items-center gap-2 justify-content-center p-1">
+                <i class="fa-brands fa-docker text-info"></i> Docker
+              </li>
+              <li class="d-flex align-items-center gap-2 justify-content-center p-1">
+                <i class="fa-solid fa-server text-secondary"></i> Apache
+              </li>
+              <li class="d-flex align-items-center gap-2 justify-content-center p-1">
+                <i class="fa-brands fa-aws text-warning"></i> AWS
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Other Skills -->
+      <div class="col-md-6 col-lg-3 d-flex">
+        <div class="card border-0 text-center p-3 h-100 w-100">
+          <div class="card-body">
+            <i class="fa-solid fa-terminal display-6 text-danger"></i>
+            <h3 class="mt-3 fw-bold">Other Skills</h3>
+            <ul class="list-unstyled mt-3 text-start">
+              <li class="d-flex align-items-center gap-2 justify-content-center p-1">
+                <i class="fa-brands fa-linux text-dark"></i> Linux (Ubuntu)
+              </li>
+              <li class="d-flex align-items-center gap-2 justify-content-center p-1">
+                <i class="fa-solid fa-brain text-primary"></i> Basic Machine
+                Learning
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section class="container py-5" id="education">
+    <h2 class="text-center mb-4 fw-bold">Education</h2>
+    <div class="row justify-content-center g-4">
+      <!-- Degree 1 -->
+      <div class="col-md-6 col-lg-4 d-flex">
+        <div class="card border-0 text-center p-3 h-100 w-100">
+          <div class="card-body">
+            <i class="fa-solid fa-user-graduate display-6 text-primary"></i>
+            <h3 class="mt-3 fw-bold">Bachelor's in Computer Science</h3>
+            <p class="text-muted mb-1">
+              Aditanar college of arts and science
+            </p>
+            <p class="text-muted">2020 - 2023</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container py-5" id="experience">
+    <h2 class="text-center mb-5 fw-bold">My Developer Journey</h2>
+    <div class="timeline">
+      <!-- Step 1 -->
+      <div class="timeline-item">
+        <div class="timeline-content left">
+          <h3>
+            <i class="fa-solid fa-laptop-code me-2 text-primary"></i>Started
+            Learning Programming
+          </h3>
           <p>
-            Full stack Developer<br /><a
-              href="https://tigeensolutions.com/"
-              target="_blank"
-              >Tigeen Computing Pvt Ltd</a
-            >
+            Began my coding journey with C & Python, exploring basic
+            algorithms and problem-solving.
           </p>
-          <div class="d-flex gap-4">
-            <a
-              href="https://www.linkedin.com/in/gnanamoorthy-parameshwaran"
-              target="_blank"
-              ><i class="bi bi-linkedin"></i
-            ></a>
-            <a href="https://github.com/Gnanamoorthy-Dev" target="_blank"
-              ><i class="bi bi-github"></i
-            ></a>
-            <a href="mailto:gnanamoorthy.dev@gmail.com" target="_blank"
-              ><i class="bi bi-envelope-at-fill"></i
-            ></a>
-          </div>
+          <span class="text-muted small">2020</span>
         </div>
-
       </div>
-    </header>
 
-    <!-- About Section -->
-    <section class="container py-5" id="about">
-      <h2 class="text-center mb-4 fw-bold">About Me</h2>
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-          <p style="font-family: Verdana, Geneva, Tahoma, sans-serif">
-            I'm a passionate Full-Stack Developer with expertise in building
-            scalable web and mobile applications. With a strong foundation in
-            Vue.js, Laravel, MySQL, React Native, and Tailwind CSS, I specialize
-            in creating seamless user experiences and robust backend systems.
+      <!-- Step 2 -->
+      <div class="timeline-item">
+        <div class="timeline-content right">
+          <h3>
+            <i class="fa-solid fa-code me-2 text-success"></i>Built My First
+            Web Application
+          </h3>
+          <p>
+            Created a simple CRUD web app using PHP, MySQL, and Bootstrap.
           </p>
-          <p style="font-family: Verdana, Geneva, Tahoma, sans-serif">
-            I enjoy solving complex problems and turning ideas into reality
-            through clean, efficient code — whether designing dynamic front-end
-            interfaces or developing secure REST APIs. I believe in continuous
-            learning and love collaborating with like-minded developers to build
-            impactful digital products.
+          <span class="text-muted small">2021</span>
+        </div>
+      </div>
+
+      <!-- Step 3 -->
+      <div class="timeline-item">
+        <div class="timeline-content left">
+          <h3>
+            <i class="fa-solid fa-layer-group me-2 text-warning"></i>Got a
+            chance to work with React Native
+          </h3>
+          <p>
+            Learned React native and Created My First React native project
           </p>
-          <p style="font-family: Verdana, Geneva, Tahoma, sans-serif">
-            Currently working as a Full Stack Developer at
-            <a href="https://tigeensolutions.com/" target="_blank">Tigeen Computing Pvt Ltd</a>,
-            where I contribute to production-grade web and mobile projects using
-            modern frameworks and DevOps best practices.
+          <span class="text-muted small">2023</span>
+        </div>
+      </div>
+
+      <!-- Step 4 -->
+      <div class="timeline-item">
+        <div class="timeline-content right">
+          <h3>
+            <i class="fa-solid fa-cloud me-2 text-danger"></i>Explored Backend
+            & DevOps
+          </h3>
+          <p>
+            Started working on backend, Working on a code igniter Project,
+            Next to that Laravel to deploy these backend projects started
+            using docker.
           </p>
+          <span class="text-muted small">2024</span>
         </div>
       </div>
-    </section>
 
-    <!-- Skills Section -->
-    <section class="container py-5" id="skills">
-      <h2 class="text-center mb-4 fw-bold">My Skills</h2>
-      <div class="row justify-content-between g-4">
-        <!-- Frontend -->
-        <div class="col-md-6 col-lg-3 d-flex">
-          <div class="card border-0 text-center p-3 h-100 w-100">
-            <div class="card-body">
-              <i class="fa-brands fa-html5 display-6 text-primary"></i>
-              <h3 class="mt-3 fw-bold">Frontend</h3>
-              <ul class="list-unstyled mt-3 text-start">
-                <li
-                  class="d-flex align-items-center gap-2 justify-content-center p-1"
-                >
-                  <i class="fa-brands fa-react text-info"></i> React.js
-                </li>
-                <li
-                  class="d-flex align-items-center gap-2 justify-content-center p-1"
-                >
-                  <i class="fa-brands fa-vuejs text-success"></i> Vue.js
-                </li>
-                <li
-                  class="d-flex align-items-center gap-2 justify-content-center p-1"
-                >
-                  <i class="fa-brands fa-react text-primary"></i> React Native
-                </li>
-                <li
-                  class="d-flex align-items-center gap-2 justify-content-center p-1"
-                >
-                  <i class="fa-brands fa-js text-warning"></i> JavaScript (ES6+)
-                </li>
-                <li
-                  class="d-flex align-items-center gap-2 justify-content-center p-1"
-                >
-                  <i class="fa-brands fa-bootstrap text-primary"></i> Bootstrap
-                  5
-                </li>
-                <li
-                  class="d-flex align-items-center gap-2 justify-content-center p-1"
-                >
-                  <i class="fa-solid fa-paintbrush text-secondary"></i> Tailwind
-                  CSS
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <!-- Backend -->
-        <div class="col-md-6 col-lg-3 d-flex">
-          <div class="card border-0 text-center p-3 h-100 w-100">
-            <div class="card-body">
-              <i class="fa-solid fa-server display-6 text-success"></i>
-              <h3 class="mt-3 fw-bold">Backend</h3>
-              <ul class="list-unstyled mt-3 text-start">
-                <li
-                  class="d-flex align-items-center gap-2 justify-content-center p-1"
-                >
-                  <i class="fa-brands fa-php text-purple"></i> PHP (Laravel,
-                  CodeIgniter)
-                </li>
-                <li
-                  class="d-flex align-items-center gap-2 justify-content-center p-1"
-                >
-                  <i class="fa-solid fa-database text-danger"></i> MySQL
-                </li>
-                <li
-                  class="d-flex align-items-center gap-2 justify-content-center p-1"
-                >
-                  <i class="fa-brands fa-python text-info"></i> Python
-                </li>
-                <li
-                  class="d-flex align-items-center gap-2 justify-content-center p-1"
-                >
-                  <i class="fa-brands fa-node-js text-success"></i> Node.js
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <!-- DevOps & Infrastructure -->
-        <div class="col-md-6 col-lg-3 d-flex">
-          <div class="card border-0 text-center p-3 h-100 w-100">
-            <div class="card-body">
-              <i class="fa-solid fa-cloud display-6 text-warning"></i>
-              <h3 class="mt-3 fw-bold">DevOps & Infrastructure</h3>
-              <ul class="list-unstyled mt-3 text-start">
-                <li
-                  class="d-flex align-items-center gap-2 justify-content-center p-1"
-                >
-                  <i class="fa-brands fa-git-alt text-danger"></i> Git (GitHub,
-                  GitLab)
-                </li>
-                <li
-                  class="d-flex align-items-center gap-2 justify-content-center p-1"
-                >
-                  <i class="fa-brands fa-docker text-info"></i> Docker
-                </li>
-                <li
-                  class="d-flex align-items-center gap-2 justify-content-center p-1"
-                >
-                  <i class="fa-solid fa-server text-secondary"></i> Apache
-                </li>
-                <li
-                  class="d-flex align-items-center gap-2 justify-content-center p-1"
-                >
-                  <i class="fa-brands fa-aws text-warning"></i> AWS
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
-        <!-- Other Skills -->
-        <div class="col-md-6 col-lg-3 d-flex">
-          <div class="card border-0 text-center p-3 h-100 w-100">
-            <div class="card-body">
-              <i class="fa-solid fa-terminal display-6 text-danger"></i>
-              <h3 class="mt-3 fw-bold">Other Skills</h3>
-              <ul class="list-unstyled mt-3 text-start">
-                <li
-                  class="d-flex align-items-center gap-2 justify-content-center p-1"
-                >
-                  <i class="fa-brands fa-linux text-dark"></i> Linux (Ubuntu)
-                </li>
-                <li
-                  class="d-flex align-items-center gap-2 justify-content-center p-1"
-                >
-                  <i class="fa-solid fa-brain text-primary"></i> Basic Machine
-                  Learning
-                </li>
-              </ul>
-            </div>
-          </div>
+      <!-- Step 5 -->
+      <div class="timeline-item">
+        <div class="timeline-content left">
+          <h3>
+            <i class="fa-solid fa-briefcase me-2 text-dark"></i>Working as a
+            Full Stack Developer
+          </h3>
+          <p>
+            Currently building scalable web and mobile applications using
+            Laravel, React Native, and Vue.js.
+          </p>
+          <span class="text-muted small">2025 - Present</span>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Experience Section -->
-    <section class="container py-5" id="education">
-      <h2 class="text-center mb-4 fw-bold">Education</h2>
-      <div class="row justify-content-center g-4">
-        <!-- Degree 1 -->
-        <div class="col-md-6 col-lg-4 d-flex">
-          <div class="card border-0 text-center p-3 h-100 w-100">
-            <div class="card-body">
-              <i class="fa-solid fa-user-graduate display-6 text-primary"></i>
-              <h3 class="mt-3 fw-bold">Bachelor's in Computer Science</h3>
-              <p class="text-muted mb-1">
-                Aditanar college of arts and science
-              </p>
-              <p class="text-muted">2020 - 2023</p>
-            </div>
-          </div>
+  <!-- Contact Section -->
+  <section class="container py-5" id="contact">
+    <h2 class="text-center mb-4 fw-bold">Get In Touch</h2>
+    <div class="row justify-content-center">
+      <div class="col-lg-6 text-center">
+        <p>Feel free to reach out!</p>
+        <div class="d-flex justify-content-center gap-3 mt-3 flex-wrap">
+          <a href="mailto:gnanamoorthy.dev@gmail.com" class="btn btn-primary">
+            <i class="bi bi-envelope-at-fill me-2"></i>Email Me
+          </a>
+          <a href="https://www.linkedin.com/in/gnanamoorthy-parameshwaran" target="_blank"
+            class="btn btn-outline-primary">
+            <i class="bi bi-linkedin me-2"></i>LinkedIn
+          </a>
+          <a href="https://github.com/Gnanamoorthy-Dev" target="_blank" class="btn btn-outline-dark">
+            <i class="bi bi-github me-2"></i>GitHub
+          </a>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="container py-5" id="experience">
-      <h2 class="text-center mb-5 fw-bold">My Developer Journey</h2>
-      <div class="timeline">
-        <!-- Step 1 -->
-        <div class="timeline-item">
-          <div class="timeline-content left">
-            <h3>
-              <i class="fa-solid fa-laptop-code me-2 text-primary"></i>Started
-              Learning Programming
-            </h3>
-            <p>
-              Began my coding journey with C & Python, exploring basic
-              algorithms and problem-solving.
-            </p>
-            <span class="text-muted small">2020</span>
-          </div>
-        </div>
+  <!-- Footer -->
+  <footer class="text-dark text-center py-3">
+    <p class="mb-0">
+      &copy; <span id="year"></span> Gnanamoorthy Parameshwaran. All Rights
+      Reserved.
+    </p>
+  </footer>
 
-        <!-- Step 2 -->
-        <div class="timeline-item">
-          <div class="timeline-content right">
-            <h3>
-              <i class="fa-solid fa-code me-2 text-success"></i>Built My First
-              Web Application
-            </h3>
-            <p>
-              Created a simple CRUD web app using PHP, MySQL, and Bootstrap.
-            </p>
-            <span class="text-muted small">2021</span>
-          </div>
-        </div>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 
-        <!-- Step 3 -->
-        <div class="timeline-item">
-          <div class="timeline-content left">
-            <h3>
-              <i class="fa-solid fa-layer-group me-2 text-warning"></i>Got a
-              chance to work with React Native
-            </h3>
-            <p>
-              Learned React native and Created My First React native project
-            </p>
-            <span class="text-muted small">2023</span>
-          </div>
-        </div>
+  <!-- Bootstrap JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 
-        <!-- Step 4 -->
-        <div class="timeline-item">
-          <div class="timeline-content right">
-            <h3>
-              <i class="fa-solid fa-cloud me-2 text-danger"></i>Explored Backend
-              & DevOps
-            </h3>
-            <p>
-              Started working on backend, Working on a code igniter Project,
-              Next to that Laravel to deploy these backend projects started
-              using docker.
-            </p>
-            <span class="text-muted small">2024</span>
-          </div>
-        </div>
-
-        <!-- Step 5 -->
-        <div class="timeline-item">
-          <div class="timeline-content left">
-            <h3>
-              <i class="fa-solid fa-briefcase me-2 text-dark"></i>Working as a
-              Full Stack Developer
-            </h3>
-            <p>
-              Currently building scalable web and mobile applications using
-              Laravel, React Native, and Vue.js.
-            </p>
-            <span class="text-muted small">2025 - Present</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="container py-5" id="contact">
-      <h2 class="text-center mb-4 fw-bold">Get In Touch</h2>
-      <div class="row justify-content-center">
-        <div class="col-lg-6 text-center">
-          <p>I'm open to new opportunities, freelance projects, and collaborations. Feel free to reach out!</p>
-          <div class="d-flex justify-content-center gap-3 mt-3 flex-wrap">
-            <a href="mailto:gnanamoorthy.dev@gmail.com" class="btn btn-primary">
-              <i class="bi bi-envelope-at-fill me-2"></i>Email Me
-            </a>
-            <a href="https://www.linkedin.com/in/gnanamoorthy-parameshwaran" target="_blank" class="btn btn-outline-primary">
-              <i class="bi bi-linkedin me-2"></i>LinkedIn
-            </a>
-            <a href="https://github.com/Gnanamoorthy-Dev" target="_blank" class="btn btn-outline-dark">
-              <i class="bi bi-github me-2"></i>GitHub
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="text-dark text-center py-3">
-      <p class="mb-0">
-        &copy; <span id="year"></span> Gnanamoorthy Parameshwaran. All Rights
-        Reserved.
-      </p>
-    </footer>
-
-    <script>
-      document.getElementById("year").textContent = new Date().getFullYear();
-    </script>
-
-    <!-- Bootstrap JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-  </body>
 </html>
